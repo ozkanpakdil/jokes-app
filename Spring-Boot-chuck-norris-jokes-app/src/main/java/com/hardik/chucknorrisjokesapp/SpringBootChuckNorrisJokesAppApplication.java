@@ -9,5 +9,4 @@ public class SpringBootChuckNorrisJokesAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootChuckNorrisJokesAppApplication.class, args);
 	}
-
 }

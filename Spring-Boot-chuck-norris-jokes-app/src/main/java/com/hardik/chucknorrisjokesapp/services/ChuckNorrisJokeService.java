@@ -1,4 +1,4 @@
-package services;
+package com.hardik.chucknorrisjokesapp.services;
 
 import org.springframework.stereotype.Service;
 
@@ -6,9 +6,9 @@ import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 
 @Service
 public class ChuckNorrisJokeService implements JokeService{
-	private final JokeService chuckNorrisQuotes;
+	private final ChuckNorrisQuotes chuckNorrisQuotes;
 	
-	public ChuckNorrisJokeService(JokeService chuckNorrisQuotes) {
+	public ChuckNorrisJokeService(ChuckNorrisQuotes chuckNorrisQuotes) {
 		super();
 		this.chuckNorrisQuotes = chuckNorrisQuotes;
 	}
