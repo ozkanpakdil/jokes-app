@@ -9,7 +9,7 @@ import com.hardik.chucknorrisjokesapp.services.JokeService;
 @Controller
 public class JokeController {
 	private JokeService jokeService;
-
+	
 	@Autowired
 	public JokeController(JokeService jokeService) {
 		super();
@@ -21,5 +21,4 @@ public class JokeController {
 		model.addAttribute("joke", jokeService.getJoke());
 		return "chucknorris";
 	}
-
 }

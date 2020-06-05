@@ -6,7 +6,8 @@ import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 
 @Service
 public class ChuckNorrisJokeService implements JokeService{
-	private final ChuckNorrisQuotes chuckNorrisQuotes;
+	private ChuckNorrisQuotes chuckNorrisQuotes;
+	
 	
 	public ChuckNorrisJokeService(ChuckNorrisQuotes chuckNorrisQuotes) {
 		super();
