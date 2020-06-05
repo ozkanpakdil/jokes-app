@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CHUCK NORRIS JOKE APPLICATION</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="norris.js" defer="true"></script>
+</head>
+<body>
+    <div class="destination">
+        <div class="thumbnail">
+         <img src="http://www.simpleimageresizer.com/_uploads/photos/a0981ab4/w_640x640.jpg" alt="CHUCK NORRIS"/>
+        </div>
+        <div class="content">
+            <h2>CHUCK NORRIS JOKE</h2>
+            <p th:text="${joke}">JOKE HERE!</p>
+        </div>
+    </div>
+</body>
+</html>
